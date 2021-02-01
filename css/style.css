@@ -209,17 +209,15 @@ h4{
 }
 /*메인배너 슬라이더 이미지 영역*/
 .slider{
-    width: 100%;
-    /* height: calc(100vh-80px); */
-    padding-top: 161.35%;
+    height: 353px;
     position: relative;
 }
 .slider>img{
-    width: 100%;
+    height: 100%;
     position: absolute;
     left: 0; top: 0;
     opacity: 0;
-    transition-duration: 1s;
+    transition-duration: 3s;
 }
 .slider>img.show{
     opacity: 1;
