@@ -41,6 +41,7 @@ section>.main>p{
 section > .bean {
     width: 40%;
     float: right;
+    margin-bottom: 30px;
 }
 
 section > .bean > img {
