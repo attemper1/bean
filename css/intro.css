@@ -1,7 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 ul {
     list-style-type: none;
 }
@@ -12,30 +8,6 @@ a {
 
 section {width: 100%;}
 
-body > h1 > a > .toggle {
-    position: absolute;
-    left: 20px;
-    top: 20px;
-    width: 27px;
-    height: 18px;
-    background: none;
-    border: none;
-}
-
-body > h1 > a > .cart {
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    width: 30px;
-    height: 18.64px;
-}
-
-body > h1 > a > .logo {
-    margin-top: 10px;
-    margin-left: 130px;
-    text-align: center;
-}
-
 body {
     color: #333;
     font-family: 'Noto Sans KR', sans-serif;
@@ -44,6 +16,7 @@ body {
 h2 {
     text-align: center;
     margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 section > .slogun {
@@ -53,18 +26,9 @@ section > .slogun {
     margin-bottom: 30px;
 }
 
-.bean > img {
-  margin-top: 20px;
-  margin-right: 10px;
-  width: 160px;
-  height: 190px;
-  float: right;
-}
-
 section > .main {
     /* outline: 1px solid red; */
-    width: 210px;
-    height: 222px;
+    width: 50%;
     font-size: 10px;
     line-height: 20px;
     margin-left: 10px;
@@ -72,17 +36,23 @@ section > .main {
     float: left;
 }
 
-section > .main .wn {
-    text-align: center;
+section > .bean {
+    width: 42%;
+    margin: 0 10px;
+    float: right;
+}
+
+section > .bean > img {
+    width: 100%;
+    padding-top: 5px;
 }
 
 #icon {
     background: #fff;
     display: inline-block;
-    width: 400px;
-    height: 100px;
-    /* outline: 1px solid blue; */
-    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 section > ul li {
@@ -99,7 +69,6 @@ section > ul li {
 .end {
     font-size: 10px;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 56px;
+    margin-bottom: 60px;
     color: darkgoldenrod;
 }
