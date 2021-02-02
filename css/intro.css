@@ -10,6 +10,8 @@ a {
     text-decoration: none;
 }
 
+section {width: 100%;}
+
 body > h1 > a > .toggle {
     position: absolute;
     left: 20px;
